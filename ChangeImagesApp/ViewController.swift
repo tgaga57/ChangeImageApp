@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // imageview
+    @IBOutlet weak var imageView: UIImageView!
+    
+    // Startandstop button
+    @IBOutlet weak var startAndStop: UIButton!
+    
+  
+    //　ロードした後にこれが読み込まれる
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+   
+    
+    // ボタン
+    @IBAction func playAndStopbutton(_ sender: Any) {
+    }
 }
 
